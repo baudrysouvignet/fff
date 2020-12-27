@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="css/header-reduit.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/france-portugal.css">
+    <!-- /css -->
+    <!-- font  -->
+    <!-- /font -->
+    <!-- base -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- /base -->
+    <title>FFF</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- bandeau -->
+        <div class="navbar">
+            <!-- logo -->
+            <div class="title">
+                <img src="img/logo_fff.png" alt="" class="img">
+            </div>
+            <!-- /logo -->
+            <!-- liens -->
+            <div class="links">
+                <a href="index.html" class="link">Accueil</a>
+                <a href="joueurs.html" class="link">Joueurs</a>
+                <a href="boutique.html" class="link">Boutique</a>
+                <a href="histoire.html" class="link">Histoire</a>
+            </div>
+            <!-- /liens -->
+        </div>
+        <!-- /bandeau -->
+    </div>
+    <!-- /header -->
+
+    <!-- img -->
+    <!-- /img -->
+    <div class="lescror">
+        <div style="cursor: pointer;" onclick="afficher()" id="score" class="score">
+            <h1 class="h1">-</h1>
+            <div class="france"> 
+                <h1>France</h1>
+                <h2>1</h2>
+                <h3>N. Kanté 54’</h3>
+            </div>
+            <div class="adv">
+                <h1>Portugal</h1>
+                <h2>0</h2>
+                <h3>Pas de buteur</h3>
+            </div>
+        </div>
+        <div style="display: none; cursor: pointer;" onclick="cacher()"id="scorebis" class="score">
+            <h1 class="h1">-</h1>
+            <div class="france"> 
+                <h1>France</h1>
+                <h2>1</h2>
+                <h3>N. Kanté 54’</h3>
+            </div>
+            <div class="adv">
+                <h1>Portugal</h1>
+                <h2>0</h2>
+                <h3>Pas de buteur</h3>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none;" id="compo" class="compo">
+    </div>
+
+    <!-- qtat -->
+    <div class="stat">
+        <div class="passe">
+            <h1>passes réussies</h1>
+            <div class="france"><h2>526</h2></div>
+            <div class="adv"><h2>524</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="tir">
+            <h1>tirs cadrés</h1>
+            <div class="france"><h2>7</h2></div>
+            <div class="adv"><h2>6</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="tire">
+            <h1>tirs</h1>
+            <div class="france"><h2>13</h2></div>
+            <div class="adv"><h2>18</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="duels">
+            <h1>duels gagnés</h1>
+            <div class="france"><h2>59</h2></div>
+            <div class="adv"><h2>54</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="tacles">
+            <h1>tacles</h1>
+            <div class="france"><h2>21</h2></div>
+            <div class="adv"><h2>13</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="centre">
+            <h1>centres</h1>
+            <div class="france"><h2>14</h2></div>
+            <div class="adv"><h2>22</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="corner">
+            <h1>corners gagnés</h1>
+            <div class="france"><h2>4</h2></div>
+            <div class="adv"><h2>8</h2></div>
+            <div class="centre"></div>
+        </div>
+        <div class="possession">
+            <h1>possession de balle</h1>
+            <div class="france"><h2>49%</h2></div>
+            <div class="adv"><h2>51%</h2></div>
+            <div class="centre"></div>
+        </div>
+    </div>
+    <!-- /stat -->
+    <!-- joueur de la soire -->
+    <div class="conteneur">
+        <div class="joueurpref">
+            <h1>Le meilleur joueur</h1>
+            <h3>selon les internautes</h3>
+            <div class="img"></div>
+            <h2>Kanté</h2>
+        </div>
+        <div class="joueurflop">
+            <h1>Le joueur flop</h1>
+            <h3>selon les internautes</h3>
+            <div class="img"></div>
+            <h2>cristiano ronaldo</h2>
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- footer -->
+    <!-- <div class="footer">
+        <div class="content">
+            <h1 class="texte">
+                © 2020 Société de la Fédération Française de Football, Tous Droits Réservés | <a class="lien"> Accueil</a> | <a class="lien">Joueurs</a> | <a href="boutique.html" class="lien">Boutique</a> | <a class="lien">Histoire</a>
+            </h1>
+        </div>
+    </div>  -->
+    <!-- /footer -->
+    <link rel="stylesheet" href="css/fleche.css">
+    <div class="btn">
+        <img src="img/arrow.png" alt="" class="iconne">
+    </div>
+    <script src="js/fleche.js"></script>
+    <script src="js/compo.js"></script>
+</body>
+</html>

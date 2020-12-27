@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="css/header-reduit.css">
+    <link rel="stylesheet" href="css/filtre.css">
+    <link rel="stylesheet" href="css/produit.css">
+    <!-- /css -->
+    <!-- font  -->
+    <!-- /font -->
+    <!-- base -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- /base -->
+    <title>FFF</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- bandeau -->
+        <div class="navbar">
+            <!-- logo -->
+            <div class="title">
+                <img src="img/logo_fff.png" alt="" class="img">
+            </div>
+            <!-- /logo -->
+            <!-- liens -->
+            <div class="links">
+                <a href="index.html" class="link"> Accueil</a>
+                <a href="joueurs.html" class="link">Joueurs</a>
+                <a href="boutique.html" class="link">Boutique</a>
+                <a href="histoire.html" class="link">Histoire</a>
+            </div>
+            <!-- /liens -->
+        </div>
+    </div>
+    <!-- /header -->
+
+    <!-- filtre -->
+    <div class="filtre">
+        <div class="content">
+            <button id="pantallon" class="pantallon" onclick="pantaF()">Pantallon</button>
+            <button id="pantallonR" class="pantallon" onclick="pantaRR()" style="display: none; background-color: rgb(98, 100, 204);">Pantallon</button>
+            <button id="t-shirt" class="t-shirt" onclick="shirtF()">T-shirt</button>
+            <button id="t-shirtR" class="t-shirt" onclick="shirtRR()" style="display: none; background-color: rgb(98, 100, 204);">T-shirt</button>
+            <button id="accesoire" class="accesoire" onclick="accesoireF()">Accesoire</button>
+            <button id="accesoireR" class="accesoire" onclick="accesoireRR()" style="display: none; background-color: rgb(98, 100, 204);">Accesoire</button>
+            <button id="chaussure" class="chaussure" onclick="chausssF()">Chaussure</button>
+            <button id="chaussureR" class="chaussure" onclick="chausssR()" style="display: none; background-color: rgb(98, 100, 204);">Chaussure</button>
+        </div>
+    </div>
+    <!-- /filtre -->
+
+    <!-- produit -->
+    <div class="produit">
+        <div class="contenta">
+            <div class="" id="shirt">
+                <div class="produits-1">
+                    <div class="img"></div>
+                    <h1 class="texte" >Maillot france 2020-2021 Domicile</h1>
+                    <button class="button" onclick="pop()">Acheter 79,99€</button>
+                </div>
+                
+                <div class="produits-2">
+                    <div class="img"></div>
+                    <h1 class="texte" >Maillot france 2020-2021</h1>
+                    <button class="button" onclick="pop()">Acheter 69,99€</button>
+                </div>
+                <div class="produits-3">
+                    <div class="img"></div>
+                    <h1 class="texte" >Polo bleu</h1>
+                    <button class="button" onclick="pop()">Acheter 49,99€</button>
+                </div>
+                <div class="produits-4">
+                    <div class="img"></div>
+                    <h1 class="texte" >Maillot france 2020-2021</h1>
+                    <button class="button" onclick="pop()">Acheter 49,99€</button>
+                </div>
+            </div>
+            <div class="" id="acce">
+                <div class="produits-5">
+                    <div class="img"></div>
+                    <h1 class="texte" >Masque Covid-19</h1>
+                    <button class="button" onclick="pop()">Acheter 5,99€</button>
+                </div>
+                <div class="produits-6">
+                    <div class="img"></div>
+                    <h1 class="texte" >Parfum équipe de france</h1>
+                    <button class="button" onclick="pop()">Acheter 19,99€</button>
+                </div>
+                <div class="produits-7">
+                    <div class="img"></div>
+                    <h1 class="texte" >Jeu de 7 famille</h1>
+                    <button class="button" onclick="pop()">Acheter 7,99€</button>
+                </div>
+                <div class="produits-8">
+                    <div class="img"></div>
+                    <h1 class="texte" >Peignoir FFF</h1>
+                    <button class="button" onclick="pop()">Acheter 30,99€</button>
+                </div>
+                <div class="produits-9">
+                    <div class="img"></div>
+                    <h1 class="texte" >Ballon</h1>
+                    <button class="button" onclick="pop()">Acheter 9,99€</button>
+                </div>
+            </div>
+            <div class="" id="chauss">
+                <div class="produits-10">
+                    <div class="img"></div>
+                    <h1 class="texte" >Pantoufles</h1>
+                    <button class="button" onclick="pop()">Acheter 12,99€</button>
+                </div>
+            </div>
+            <div class="" id="panta">
+                <div class="produits-11">
+                    <div class="img"></div>
+                    <h1 class="texte" >Pantalon entrainement</h1>
+                    <button class="button" onclick="pop()">Acheter 69,99€</button>
+                </div>
+                <div class="produits-12">
+                    <div class="img"></div>
+                    <h1 class="texte" >Pantalon fan</h1>
+                    <button class="button" onclick="pop()">Acheter 29,99€</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /produit -->
+    <div id="popup" class="popup" onclick="unpop()">
+        <div class="popupmsg" onclick="pop()">
+            <h1>Produit indisponible pour le moment </h1>
+        </div>
+    </div>
+    <link rel="stylesheet" href="css/fleche.css">
+    <div class="btn">
+        <img src="img/arrow.png" alt="" class="iconne">
+    </div>
+    <script src="js/fleche.js"></script>
+    <script src="js/filtre.js"></script>
+</body>
+</html>

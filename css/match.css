@@ -1,0 +1,426 @@
+/* match */
+    /* content */
+    .match .content {
+        width: 80%;
+        height: 820px;
+        float: left;
+        margin-top: 150px;
+        margin-left: 10%;
+    }
+    /* match4 */
+    .match .content .match4 {
+        width:48%;
+        height: 400px;
+        background-image: url(../img/france-suede.jpg);
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 10px;
+    }
+    .match .content .match4:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+    }
+    .match .content .match4 .texte {
+        color: white;
+        margin-top: 200px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .match .content .match4 .textebis {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .match .content .match4 .button {
+        cursor: pointer;
+        color: white;
+        display: block;
+        margin:auto;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border-width: 4px;
+        border-radius: 20px;
+        border-color: white;
+        font-weight: 100;
+    }
+    
+    @media only screen and (max-width: 1093px){
+        .match .content .match4 {
+            width:52%;
+            margin-top: 20px;
+            margin-left: 24%;
+        }
+    }
+    @media only screen and (max-width: 808px){
+        .match .content .match4 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+    }
+    @media only screen and (max-width: 708px){
+        .match .content .match4 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+    }
+    @media only screen and (max-width: 608px){
+        .match .content .match4 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    }
+    @media only screen and (max-width: 508px){
+        .match .content .match4 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (max-width: 408px){
+        .match .content .match4 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+    }
+    /* /match4 */
+
+    /* match1 */
+    .match .content .match1 {
+        width:48%;
+        height: 400px;
+        background-image: url(../img/france-portugal.jpg);
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 10px;
+    }
+    .match .content .match1:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+    }
+    .match .content .match1 .texte {
+        color: white;
+        margin-top: 200px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .match .content .match1 .textebis {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .match .content .match1 .button {
+        cursor: pointer;
+        color: white;
+        display: block;
+        margin:auto;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border-width: 4px;
+        border-radius: 20px;
+        border-color: white;
+        font-weight: 100;
+    }
+    .match .content .match1 .button:hover {
+        background-color: rgb(56, 56, 233);
+        border-color:  rgb(1, 1, 150);
+    }
+    @media only screen and (max-width: 1093px){
+        .match .content .match1 {
+            width:52%;
+            margin-top: 20px;
+            margin-left: 24%;
+        }
+    }
+    @media only screen and (max-width: 808px){
+        .match .content .match1 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+    }
+    @media only screen and (max-width: 708px){
+        .match .content .match1 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+    }
+    @media only screen and (max-width: 608px){
+        .match .content .match1 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    }
+    @media only screen and (max-width: 508px){
+        .match .content .match1 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (max-width: 408px){
+        .match .content .match1 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+    }
+    /* /match1 */
+
+    /* match2 */
+    .match .content .match2 {
+        margin-top: 20px;
+        width:48%;
+        height: 400px;
+        background-image: url(../img/france-finlande.jpg);
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 10px;
+    }
+    .match .content .match2:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+    }
+    .match .content .match2 .texte {
+        color: white;
+        margin-top: 200px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .match .content .match2 .textebis {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .match .content .match2 .button {
+        cursor: pointer;
+        color: white;
+        display: block;
+        margin:auto;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border-width: 4px;
+        border-radius: 20px;
+        border-color: white;
+        font-weight: 100;
+    }
+    .match .content .match2 .button:hover {
+        background-color: rgb(56, 56, 233);
+        border-color:  rgb(1, 1, 150);
+    }
+    @media only screen and (max-width: 1093px){
+        .match .content .match2 {
+            width:52%;
+            margin-top: 20px;
+            margin-left: 24%;
+        }
+    }
+    @media only screen and (max-width: 808px){
+        .match .content .match2 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+    }
+    @media only screen and (max-width: 708px){
+        .match .content .match2 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+    }
+    @media only screen and (max-width: 608px){
+        .match .content .match2 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    }
+    @media only screen and (max-width: 508px){
+        .match .content .match2 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (max-width: 408px){
+        .match .content .match2 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+    }
+    /* /match2 */
+
+    /* match3 */
+    .match .content .match3 {
+        margin-top: 20px;
+        width:48%;
+        height: 400px;
+        background-image: url(../img/france-croatie.jpg);
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 10px;
+    }
+    .match .content .match3:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+    }
+    .match .content .match3 .texte {
+        color: white;
+        margin-top: 200px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .match .content .match3 .textebis {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .match .content .match3 .button {
+        cursor: none;
+        color: white;
+        display: block;
+        margin:auto;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border-width: 4px;
+        border-radius: 20px;
+        border-color: white;
+        font-weight: 100;
+    }
+    .match .content .match3 .button:hover {
+        background-color: rgb(56, 56, 233);
+        border-color:  rgb(1, 1, 150);
+    }
+    @media only screen and (max-width: 1093px){
+        .match .content .match3 {
+            width:52%;
+            margin-top: 20px;
+            margin-left: 24%;
+        }
+    }
+    @media only screen and (max-width: 808px){
+        .match .content .match3 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+    }
+    @media only screen and (max-width: 708px){
+        .match .content .match3 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+    }
+    @media only screen and (max-width: 608px){
+        .match .content .match3 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    }
+    @media only screen and (max-width: 508px){
+        .match .content .match3 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (max-width: 408px){
+        .match .content .match3 {
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+    }
+    /* /match3 */
+
+    /* /content */
+/* /match */

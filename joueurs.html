@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="css/header-reduit.css">
+    <link rel="stylesheet" href="css/filtrebis.css">
+    <link rel="stylesheet" href="css/joueurs.css">
+    <link rel="stylesheet" href="css/fleche.css">
+    <!-- /css -->
+    <!-- font  -->
+    <!-- /font -->
+    <!-- base -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- /base -->
+    <title>FFF</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- bandeau -->
+        <div class="navbar">
+            <!-- logo -->
+            <div class="title">
+                <img src="img/logo_fff.png" alt="" class="img">
+            </div>
+            <!-- /logo -->
+            <!-- liens -->
+            <div class="links">
+                <a href="index.html" class="link">Acceuil</a>
+                <a href="joueurs.html" class="link">Joueurs</a>
+                <a href="boutique.html" class="link">Boutique</a>
+                <a href="histoire.html" class="link">Histoire</a>
+            </div>
+            <!-- /liens -->
+        </div>
+    </div>
+    <!-- /header -->
+
+    <!-- filtre -->
+    <div class="filtre">
+        <div class="content">
+            <button id="goalbtn" class="goalbtn" onclick="goalbtnF()">Goals</button>
+            <button id="goalbtnR" class="goalbtn" onclick="goalbtnRR()" style="display: none; background-color: rgb(98, 100, 204);">Goals</button>
+            <button id="defan" class="defan" onclick="shirtF()">Défenseurs</button>
+            <button id="defanR" class="defan" onclick="shirtRR()" style="display: none; background-color: rgb(98, 100, 204);">Défenseurs</button>
+            <button id="mili" class="mili" onclick="miliF()">Milieu</button>
+            <button id="miliR" class="mili" onclick="miliRR()" style="display: none; background-color: rgb(98, 100, 204);">Milieu</button>
+            <button id="attaque" class="attaque" onclick="attaqueF()">Attaquant</button>
+            <button id="attaqueR" class="attaque" onclick="attaqueRR()" style="display: none; background-color: rgb(98, 100, 204);">Attaquant</button>
+        </div>
+    </div>
+    <!-- /filtre -->
+
+    <div class="container">
+        
+    
+        <div class="container">
+            <div id="goal">
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/lloris.png" alt=""> <h3 class="numero">1</h3>
+                <div class="contentbx">
+                  <h2>Lloris</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>33 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,88m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>120</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        
+        
+        
+        <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/maignan.png" alt=""> <h3 class="numero">16</h3>
+                <div class="contentbx">
+                  <h2>Maignan</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>25 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,87m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/mandanda.png" alt=""> <h3 class="numero">3</h3>
+                <div class="contentbx">
+                  <h2>mandanda</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>35 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,88m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>34</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        
+        
+            
+            <div id="def">
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/digne.png" alt=""> <h3 class="numero">17</h3>
+                <div class="contentbx">
+                  <h2>Digne</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>27 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,78m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>35</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/Dubois.png" alt=""> <h3 class="numero">14</h3>
+                <div class="contentbx">
+                  <h2>Dubois</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>26 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,78m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>6</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+             <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/hernadez.png" alt=""> <h3 class="numero">21</h3>
+                <div class="contentbx">
+                  <h2>Hernandez</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>24 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,84</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection::</h3>
+                    <span>22</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/kimpembe.png" alt=""> <h3 class="numero">3</h3>
+                <div class="contentbx">
+                  <h2>Kimpembe</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>25 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,83m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>13</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/lengletA.png" alt=""> <h3 class="numero">19</h3>
+                <div class="contentbx">
+                  <h2>Lenglet</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>25 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,9m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>11</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/pavar.png" alt=""> <h3 class="numero">2</h3>
+                <div class="contentbx">
+                  <h2>Pavard</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>24 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,86m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>31</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/varane.png" alt=""> <h3 class="numero">4</h3>
+                <div class="contentbx">
+                  <h2>varane</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>27 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,91m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>71</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/zouma.png" alt=""> <h3 class="numero">5</h3>
+                <div class="contentbx">
+                  <h2>zouma</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>26 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,9m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        
+        
+            <div id="milieu">    
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/kante.png" alt=""> <h3 class="numero">13</h3>
+                <div class="contentbx">
+                  <h2>Kante</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>29 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,68m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>44</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/nzonzi.png" alt=""> <h3 class="numero">15</h3>
+                <div class="contentbx">
+                  <h2>nzonzi</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>32 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,96</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>20  </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/pogba.png" alt=""> <h3 class="numero">6</h3>
+                <div class="contentbx">
+                  <h2>pogba</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>27 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,91</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>75</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/rabiot.png" alt=""> <h3 class="numero">8</h3>
+                <div class="contentbx">
+                  <h2>rabiot</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>25 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,88m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>11</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/sissoko.png" alt=""> <h3 class="numero">18</h3>
+                <div class="contentbx">
+                  <h2>sissoko</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>31 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,87</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>65</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/tolisso.png" alt=""> <h3 class="numero">12</h3>
+                <div class="contentbx">
+                  <h2>Tolisso</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>26 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,81m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>23</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/coman.png" alt=""> <h3 class="numero">11</h3>
+                <div class="contentbx">
+                  <h2>Coman</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>24 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,79m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>26</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        
+        
+        
+            <div id="atta">
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/giroud.png" alt=""> <h3 class="numero">9</h3>
+                <div class="contentbx">
+                  <h2>Giroud</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>34 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,93m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>102</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/griezman.png" alt=""> <h3 class="numero">7</h3>
+                <div class="contentbx">
+                  <h2>Griezman</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>29 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,76m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>86</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/martiale.png" alt=""> <h3 class="numero">20</h3>
+                <div class="contentbx">
+                  <h2>Martial</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>25 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,84m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>25</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div id="mbappe" class="card">
+              <div class="imgbx">
+                <img class="img" src="img/mbappe.png" alt=""> <h3 class="numero">10</h3>
+                <div class="contentbx">
+                  <h2>Mbappé</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>21 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>taille:</h3>
+                    <span>1,78m</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>39</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="imgbx">
+                <img class="img" src="img/thuram.png" alt=""> <h3 class="numero">17</h3>
+                <div class="contentbx">
+                  <h2>thuram</h2>
+                  <div class="agetbx">
+                    <h3>Age:</h3>
+                    <span>23 ans</span>
+                  </div>
+                  <div class="taille">
+                    <h3>Taille:</h3>
+                    <span>1,92</span>
+                  </div>
+                  <div class="CDM">
+                    <h3>Nombre de sélection:</h3>
+                    <span>3</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div> 
+          </div>
+    </div>
+    <!-- footer -->
+    <!-- <div class="footer">
+        <div class="content">
+            <h1 class="texte">
+                 © 2020 Société de la Fédération Française de Football, Tous Droits Réservés | <a class="lien">Acceuil</a> | <a class="lien">Joueurs</a> | <a href="boutique.html" class="lien">Boutique</a> | <a class="lien">Histoire</a>
+            </h1>
+        </div>
+    </div> -->
+    <!-- /footer -->
+    <div class="btn">
+      <img src="img/arrow.png" alt="" class="iconne">
+    </div>
+    <script src="js/fleche.js"></script>
+    <script src="js/filtrebis.js"></script>
+    
+</body>
+</html>

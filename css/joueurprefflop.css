@@ -1,0 +1,98 @@
+.conteneur {
+    width: 760px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
+}
+@media only screen and (max-width: 768px){
+    .conteneur {
+        width: 380px;
+        margin-top: 900px;
+    }
+}
+.conteneur .joueurpref{
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    width: 300px;
+    margin: 40px;
+    height: 300px;
+    float: left;
+    
+}
+.conteneur .joueurpref h1 {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.conteneur .joueurpref .img {
+    width: 150px;
+    height: 150px;
+    margin-top: 45px;
+    margin-left:75px;
+    border-radius: 50%;
+    background-image: url(../img/giroud.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.conteneur .joueurpref h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 2px;
+}
+.conteneur .joueurpref h3 {
+    font-size: 10px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+.conteneur .joueurflop {
+    width: 300px;
+    margin: 40px;
+    height: 300px;
+    float: left;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+}
+.conteneur .joueurflop h1 {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.conteneur .joueurflop .img {
+    width: 150px;
+    height: 150px;
+    margin-top: 45px;
+    margin-left:75px;
+    border-radius: 50%;
+    background-image: url(../img/varane.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.conteneur .joueurflop h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 2px;
+}
+.conteneur .joueurflop h3 {
+    font-size: 10px;
+    color: black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}

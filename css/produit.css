@@ -1,0 +1,769 @@
+
+.contenta {
+    width:  1020px;
+    height: auto;
+    background-color: blue;
+    margin-top: 10px;
+    margin: auto;
+}
+@media only screen and (max-width: 1021px){
+    .contenta {
+        width:  680px;
+    }
+}
+@media only screen and (min-width: 1371px){
+    .contenta {
+        width:  1380px;
+    }
+}
+@media only screen and (max-width: 641px){
+    .contenta {
+        width:  345px;
+    }
+}
+
+.contenta .produits-1{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-1 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/maillo-homme_face.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-1:hover .img{
+    background-image: url(../img/maillo-homme_dos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-1 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-1 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-1 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+
+.contenta .produits-2{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-2 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/maillo-homme_face_ex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-2:hover .img{
+    background-image: url(../img/maillo-homme_dos_ex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-2 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-2 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-2 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+.contenta .produits-3{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-3 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/polo_home_face_bleu.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.contenta .produits-3:hover .img{
+    background-image: url(../img/polo_home_dos_bleu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-3 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-3 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-3 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+
+.contenta .produits-4{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-4 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/polo_home_face_blanc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-4:hover .img{
+    background-image: url(../img/polo_home_dos_blanc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-4 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-4 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-4 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+.contenta .produits-5{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-5 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/masque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-5 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-5 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-5 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+.contenta .produits-6{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-6 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/parfum.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-6 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-6 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-6 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+.contenta .produits-7{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-7 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/jeu_7_famille.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-7 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-7 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-7 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+.contenta .produits-8{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-8 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/peingnoir_face.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-8:hover .img{
+    background-image: url(../img/peignoir_dos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-8 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-8 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-8 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+.contenta .produits-9{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-9 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/ballon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-9 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-9 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-9 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+.contenta .produits-10{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-10 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/pantoufle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-10:hover .img{
+    background-image: url(../img/pantoufle_profile.jpg);
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+.contenta .produits-10 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-10 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-10 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+.contenta .produits-11{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-11 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/pantallon1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.contenta .produits-11:hover .img{
+    background-image: url(../img/pantalon1bis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-11 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-11 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-11 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+.contenta .produits-12{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(177, 168, 168);
+    float: left;
+    border-radius: 20px;
+}
+.contenta .produits-12 .img{
+    width: 250px;
+    height: 250Px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../img/pantalon_fan.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.contenta .produits-12:hover .img{
+    background-image: url(../img/pantalonfanbis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenta .produits-12 .texte {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.contenta .produits-12 .button {
+    margin-left: 89px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.contenta .produits-12 button:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+}
+.footer .content {
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    z-index: 2000;
+}
+.footer .content .texte {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 1830px;
+    padding-bottom: 30px;
+}
+.footer .content .texte a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.footer .content .texte .lien:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1021px){
+    .footer .content .texte {
+        padding-top: 2730px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 1371px){
+    .footer .content .texte {
+        padding-top: 730px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 641px){
+    .footer .content .texte {
+        padding-top: 5490px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup {
+    margin-top: -300px;
+    width: 100%;
+    min-height: 120vh;
+    z-index: 2000000000;
+    position: fixed;
+    display: none;
+}
+.popup .popupmsg {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 40vh;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+}
+.popup .popupmsg h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    padding: auto;
+    text-align: center;
+}

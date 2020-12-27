@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+/* header */
+    /* bandeau */
+        .header .navbar {
+            width: 100%;
+            height: 80px;
+            z-index: 10;
+        }
+        /* titre */
+            .header .navbar .title {
+                margin-left: 20px;
+                margin-top: 25px;
+                float: left;
+                color: black;
+            }
+            .header .navbar .title img {
+                width: 153px;
+            }
+            @media only screen and (max-width: 560px){
+                .header .navbar .title img {
+                    width: 100px;
+                }
+            }
+            @media only screen and (max-width: 430px){
+                .header .navbar .title img {
+                    width: 80px;
+                }
+            }
+        /* /titre */
+        /* lien */
+            .header .navbar .links {
+                margin-right: 20px;
+                margin-top: 25px;
+                float: right;
+            }
+            .header .navbar .links a {
+                font-size: 20px;
+                margin-left: 15px;
+                text-decoration: none;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+            }
+            .header .navbar .links a:hover {
+                text-decoration: underline;
+            }
+            @media only screen and (max-width: 560px){
+                .header .navbar .links a {
+                    font-size: 15px;
+                    margin-left: 15px;
+                }
+            }
+            @media only screen and (max-width: 430px){
+                .header .navbar .links a {
+                    font-size: 14px;
+                    margin-left: 10px;
+                }
+            }
+        /* /lien */
+    /* /bandeau */
+    /* baniére */
+        .header .baner {
+            width: 100%;
+            height: 400px;
+            background-image: url(../img/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            z-index: 10;
+        }
+        /* texte  */
+            .header .baner .texte {
+                float:right;
+                padding-right: 40px;
+                padding-top: 100px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: right;
+                font-size: 30px;
+                font-weight: 200;
+            } 
+            .header .baner .sous-texte  {
+                font-size: 15px;
+                font-weight: 100;
+                float: left;
+            }
+            @media only screen and (max-width: 700px){
+                .header .baner .texte {
+                    font-size: 20px;
+                }
+                .header .baner .sous-texte {
+                    font-size: 13px;
+                }
+            }
+            @media only screen and (max-width: 470px){
+                .header .baner .texte {
+                    padding-top: 70px;
+                }
+                
+            }
+        /* /texte */
+    /* baniére */
+/* /header */

@@ -1,0 +1,102 @@
+.filtre .content {
+    width: 90%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.filtre .content .goalbtn {
+    margin-right: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.filtre .content .goalbtn:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+.filtre .content .defan {
+    margin-right: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.filtre .content .defan:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+.filtre .content .mili {
+    margin-right: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.filtre .content .mili:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+
+.filtre .content .attaque {
+    margin-right: 20px;
+    cursor: pointer;
+    color: black;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: black;
+    font-weight: 100;
+}
+.filtre .content .attaque:hover {
+    background-color: rgb(56, 56, 233);
+    border-color:  rgb(1, 1, 150);
+}
+@media only screen and (max-width: 455px){
+    .filtre .content .chaussure{
+        margin-top: 20px;
+    }
+}
